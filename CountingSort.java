@@ -44,7 +44,7 @@ public class Solution {
                s=al.get(i);
           
                okay=copy.get(s) +1;
-               copy.set(s,okay);  //congrats Alma!
+               copy.set(s,okay);  
               
               // System.out.println(copy.get(s));
               okay=0;
