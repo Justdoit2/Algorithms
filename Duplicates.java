@@ -11,17 +11,20 @@ public class Solution {
         {
             if(!diff.contains(nums[j])){
             diff.add(nums[j]);
+                ++k;
             }
             
         }
-  
+        return k;
+   """
         int [] A= new int[nums.length]; //prevent out of bound
         for(Integer s: diff){
         //System.out.println(s);
            ++k
         }
+   """
 
-       return ++k;
+     
        
 }
 }
