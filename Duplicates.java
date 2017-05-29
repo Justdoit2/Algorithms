@@ -18,7 +18,7 @@ public class Solution {
         int [] A= new int[nums.length]; //prevent out of bound
         for(Integer s: diff){
         //System.out.println(s);
-           A[++k]=s;
+           ++k
         }
 
        return ++k;
